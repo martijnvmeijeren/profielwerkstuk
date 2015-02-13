@@ -10,7 +10,8 @@ Scene = bge.logic.getCurrentScene()
 cont = bge.logic.getCurrentController()
 spot = cont.owner
 
-
+"""kies een 'amount' aan willekeurige tegels in met water, gras, bos en berg tegels op een gecontroleerde wijze, 
+waarbij WaChance, GrChance, WoChance en MoChance de kansen op een bepaald soort tegel voorstellen"""
 def RandomTiles (WaChance, GrChance, WoChance, MoChance, amount):  
     
     if WaChance + GrChance + WoChance + MoChance > 100:    
